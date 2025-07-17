@@ -596,8 +596,8 @@ require('lazy').setup({
         dotls = {},
         dockerls = {},
         eslint = {},
-        -- jdtls = {},
-        java_language_server = {},
+        jdtls = {},
+        -- java_language_server = {},
         -- kotlin_lsp = {},
 
         lua_ls = {

@@ -596,6 +596,9 @@ require('lazy').setup({
         dotls = {},
         dockerls = {},
         eslint = {},
+        -- jdtls = {},
+        java_language_server = {},
+        -- kotlin_lsp = {},
 
         lua_ls = {
           -- cmd = { ... },
@@ -698,7 +701,7 @@ require('lazy').setup({
         json = { 'prettier' },
         yaml = { 'yamlfmt' },
         xml = { 'prettier' },
-        java = { 'google_java_format' },
+        -- java = { 'google_java_format' },
         rust = { 'rustfmt' },
       },
     },
